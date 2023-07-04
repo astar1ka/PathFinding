@@ -6,5 +6,9 @@
 
 # Используемые технологии
 TypeScript
+
+
 React
+
+
 Raphael
