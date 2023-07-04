@@ -1,0 +1,13 @@
+.Tools {
+    position: absolute;
+    width: 15vw;
+    z-index: 10;
+    background-color: rgba(10,10,10,0.8);
+    border-radius: 5px;
+    border: solid 2px black;
+    transform: translate(var(--x), var(--y));
+    -moz-user-select: none; 
+    -webkit-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
+}

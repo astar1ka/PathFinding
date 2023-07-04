@@ -1,0 +1,40 @@
+.Settings {
+    display: flexbox;
+    justify-content: center;
+    position: absolute;
+    width: 15vw;
+    z-index: 10;
+    background-color: rgba(10, 10, 10, 0.8);
+    border-radius: 5px;
+    border: solid 2px black;
+    box-shadow: 0 0.2vw 0.8vw rgb(0, 0, 0);
+    font-weight: bolder;
+    color: white;
+    font-size: x-large;
+}
+
+.settingsInput {
+    border-radius: 5px;
+    width: 80%;
+}
+
+.settingsBox {
+    position: relative;
+    font-size: medium;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.settingsButton {
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0.2vw 0.8vw rgb(0, 0, 0);
+    font-weight: bolder;
+    color: rgb(10, 10, 10);
+}
+
+.settingsCheckbox {
+    width: 100%;
+    font-size: small;
+    justify-content: left;
+}

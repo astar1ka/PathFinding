@@ -1,0 +1,20 @@
+.colorBox{
+    margin: 5px;
+    border: solid 2px black;
+    float:left;
+}
+
+.Brush{
+    height: 25px;
+    display: flex;
+}
+
+.brushName{
+    font-weight: bolder;
+    color: white;
+    float:left;
+    margin: 3px;
+    height: 15px;
+    width: 25px;
+    user-select:none;
+}
